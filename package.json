@@ -1,0 +1,27 @@
+{
+	"name": "webpack-boilerplate",
+	"version": "1.0.0",
+	"description": "",
+	"homepage": "",
+	"bugs": "",
+	"repository": "",
+	"license": "MIT",
+	"author": "Yoriiis aka Joris DANIEL",
+	"scripts": {
+		"build": "webpack --mode=production",
+		"start": "webpack --mode=development"
+	},
+	"dependencies": {},
+	"devDependencies": {
+		"@babel/core": "^7.9.0",
+		"@babel/preset-env": "^7.9.5",
+		"babel-loader": "^8.1.0",
+		"chunks-webpack-plugin": "^6.1.0",
+		"core-js": "^3.6.5",
+		"css-loader": "^3.5.2",
+		"mini-css-extract-plugin": "^0.4.1",
+		"terser-webpack-plugin": "^2.3.5",
+		"webpack": "^4.43.0",
+		"webpack-cli": "^3.3.11"
+	}
+}
