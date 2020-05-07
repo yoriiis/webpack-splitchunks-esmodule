@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block styles %}
+  {{ include "./dist/templates/modern/news-styles.html.twig" }}
+{% endblock %}
+
+{% block body %}{% endblock %}
+
+{% block scripts %}
+  {{ include "./dist/templates/modern/news-script.html.twig" }}
+  {{ include "./dist/templates/legacy/news-script.html.twig" }}
+{% endblock %}

@@ -1,0 +1,12 @@
+{% extends 'base.html.twig' %}
+
+{% block styles %}
+  {{ include "./dist/templates/modern/home-styles.html.twig" }}
+{% endblock %}
+
+{% block body %}{% endblock %}
+
+{% block scripts %}
+  {{ include "./dist/templates/modern/home-script.html.twig" }}
+  {{ include "./dist/templates/legacy/home-script.html.twig" }}
+{% endblock %}
