@@ -1,17 +1,17 @@
 {
-	"name": "webpack-boilerplate",
+	"name": "webpack-splitchunks-esmodule",
 	"version": "1.0.0",
-	"description": "",
-	"homepage": "",
-	"bugs": "",
-	"repository": "",
+	"private": true,
+	"repository": "https://github.com/yoriiis/webpack-splitchunks-esmodule.git",
 	"license": "MIT",
 	"author": "Yoriiis aka Joris DANIEL",
 	"scripts": {
 		"build": "webpack --mode=production",
 		"start": "webpack --mode=development"
 	},
-	"dependencies": {},
+	"dependencies": {
+		"vlitejs": "^3.0.4"
+	},
 	"devDependencies": {
 		"@babel/core": "^7.9.0",
 		"@babel/preset-env": "^7.9.5",

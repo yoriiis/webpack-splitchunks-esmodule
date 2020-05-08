@@ -35,13 +35,15 @@ const generateWebpackConfig = ({ browsers, isProduction, presets }) => {
 			rules: [
 				{
 					test: /\.js$/,
+					include: [path.resolve(__dirname, './src')],
 					loader: 'babel-loader',
 					options: {
 						presets
 					}
 				},
 				{
-					test: /\.css$/i,
+					test: /\.css$/,
+					include: [path.resolve(__dirname, './src')],
 					use: [MiniCssExtractPlugin.loader, 'css-loader']
 				}
 			]

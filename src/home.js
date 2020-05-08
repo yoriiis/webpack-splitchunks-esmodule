@@ -1,6 +1,10 @@
 /**
- * Example of ES6 code to test Babel transpilation
+ * Example of ES6 code to test Babel transpilation and shared code
  */
+
+import 'vlitejs';
+import './bootstrap.css';
+
 class Games {}
 const Ravalynn = new Games();
 

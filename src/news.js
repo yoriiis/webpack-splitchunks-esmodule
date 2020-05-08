@@ -1,4 +1,6 @@
 /**
- * Example of ES6 code to test Babel transpilation
+ * Example of ES6 code to test Babel transpilation and shared code
  */
-import { commponent } from './home';
+
+import 'vlitejs';
+import './bootstrap.css';
