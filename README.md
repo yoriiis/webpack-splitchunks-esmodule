@@ -1,6 +1,6 @@
 # Webpack SplitChunks ESmodule
 
-This repository is the demo for the Dev.to article: [Granular chunking and modern code for faster page loads](https://dev.to/yoriiis/webpack-granular-chunks-script-type-module-es6-nomodule-28pl-temp-slug-8403043)
+This repository is the demo for the Dev.to article: [Granular chunks and JavaScript modules for faster page loads](https://dev.to/yoriiis/granular-chunks-and-javascript-modules-for-faster-page-loads-4pd9)
 
 ## Installation
 
