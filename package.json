@@ -4,7 +4,7 @@
 	"private": true,
 	"repository": "https://github.com/yoriiis/webpack-splitchunks-esmodule.git",
 	"license": "MIT",
-	"author": "Yoriiis aka Joris DANIEL",
+	"author": "Yoriiis",
 	"scripts": {
 		"build": "webpack --mode=production",
 		"start": "webpack --mode=development"
